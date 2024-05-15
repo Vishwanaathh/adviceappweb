@@ -1,0 +1,19 @@
+body{
+    background-color: olive;
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type="submit"] {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+}
+
+/* Show the desired text using ::after pseudo-element */
+input[type="submit"]::after {
+    content: "Tell Me!";
+    color: black; /* Change color as needed */
+    background-color:aliceblue; /* Change background color as needed */
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-family: 'Courier New', Courier, monospace;
+}
